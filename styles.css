@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+.conteiner {
+width: 90%;
+margin: auto;
+
+}
+.nav-main{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+
+}
+img {
+    width: 60px;
+}
+.nav-main ul {
+    display: flex;
+
+}
+.nav-main ul li{
+    padding: 10px;
+
+}
+
+.nav-main ul li a {
+    padding: 6px;
+
+}
+
+.nav-main ul li a:hover {
+border-bottom: 2px solid #fff;
+
+
+}
+
+
+.nav-main ul .nav-menu {
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+hr {
+   margin: 10px 0;
+
+}
+.showcase {
+    width: 100%;
+    height: 300px;
+    background: url(./img/emilio-garcia-AWdCgDDedH0-unsplash.jpg) no-repeat center center/cover ;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+.showcase h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.showcase p {
+font-size: 20px;
+color: white;
+text-align: center;
+
+}
+
+
+.btn {
+cursor: pointer;
+display: inline-block;
+border: 0;
+font-weight: bold;
+padding: 10px 20px;
+background: #262626;
+color: #fff;
+font-size: 15px;
+border: 1px solid #fff;
+margin: 10px 0;
+
+
+}
+
+.btn:hover {
+    opacity: .7;
+
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+
+}
+
+/*otra cosa*/
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+
+
+}
+
+.new-cards img {
+    width: 100%;
+    height:  180px;
+
+}
+.new-cards h3 {
+   font-size: 40px;
+   margin: 10px;
+   color: #DFDBE5;
+
+}
+
+.new-cards a {
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20PX;
+
+}
+
+.new-cards a {
+    text-decoration: underline;
+
+}
+
+/* banner*/
+.banner {
+    width: 100%;
+    height: 350px;
+    background: url(./img/BOMBO.jfif) no-repeat center center/cover;
+    margin-bottom: 40px;
+  
+
+}
+.banner .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+
+
+}
+
+.banner h2 {
+
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+.banner p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/*nbanner2*/
+ .banner2 {
+    width: 100%;
+    height: 350px;
+    background: url(./img/thomas-serer-r-xKieMqL34-unsplash.jpg);
+    margin-bottom: 40px;
+ }
+ 
+ .banner2 .container {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: aliceblue;
+ }
+ section {
+    display: flex;
+    width: 80%;
+    height: 430px;
+
+ }
+ section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: .5s ease;
+    
+
+ }
+ section img:hover {
+   cursor: crosshair;
+   width: 300px;
+   opacity: 1;
+   filter: contrast(120%);
+ }
